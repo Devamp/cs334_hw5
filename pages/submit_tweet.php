@@ -31,7 +31,7 @@ if ($stmt->execute()) {
 $stmt->close();
 $conn->close();
 
-
+# switch pages
 header("Location: view_tweets.php");
 exit;
 ?>
